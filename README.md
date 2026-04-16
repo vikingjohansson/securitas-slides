@@ -23,6 +23,31 @@ This repo is a focused internal starter for:
 - `animation-patterns.md` — restrained motion guidance
 - `scripts/extract-pptx.py` — PowerPoint extraction helper
 - `scripts/export-pdf.sh` — optional PDF export helper
+This project contains a Securitas-formatted HTML slide deck that can be opened in a browser and exported to PDF.
+
+All editable copy lives in the JSON content block near the top of [securitas_starter_deck.html](./securitas_starter_deck.html). Specifically, the deck reads content from the `<script id="deck-data" type="application/json">` block, so we can update text quickly in one place without reworking the slide markup or regenerating the full layout.
+
+## How it can look
+
+### Slide 1
+![Slide 1 preview](./assets/readme/slide-1.png)
+
+### Slide 2
+![Slide 2 preview](./assets/readme/slide-2.png)
+
+### Slide 3
+![Slide 3 preview](./assets/readme/slide-3.png)
+
+### Slide 4
+![Slide 4 preview](./assets/readme/slide-4.png)
+
+## Installation
+
+No package installation is required.
+
+1. Open [whateverdeckyoucreated.html](./securitas_starter_deck.html) in a browser.
+2. Edit the text in the `deck-data` content block when you want to change slide copy for quick word changes instead of having the llm regenerate the entire page.
+3. Export or print to PDF when you need a shareable deck file.
 
 ## Installation
 
