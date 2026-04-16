@@ -36,20 +36,20 @@ cd securitas-slides
 ### Install The Skill Files
 
 ```bash
-mkdir -p ~/.claude/skills/frontend-slides/scripts
+mkdir -p ~/.claude/skills/securitas-slides/scripts
 
-cp SKILL.md viewport-base.css html-template.md animation-patterns.md ~/.claude/skills/frontend-slides/
-cp scripts/extract-pptx.py scripts/export-pdf.sh ~/.claude/skills/frontend-slides/scripts/
+cp SKILL.md viewport-base.css html-template.md animation-patterns.md ~/.claude/skills/securitas-slides/
+cp scripts/extract-pptx.py scripts/export-pdf.sh ~/.claude/skills/securitas-slides/scripts/
 ```
 
-Then use `/frontend-slides` in Claude Code.
+Then use `/securitas-slides` in Claude Code.
 
 ## Usage
 
 ### Create a New Deck
 
 ```text
-/frontend-slides
+/securitas-slides
 
 > Create a Securitas-branded internal presentation about AI enablement
 ```
@@ -59,7 +59,7 @@ The skill will gather the content, keep the design inside the Securitas brand sy
 ### Convert a PowerPoint
 
 ```text
-/frontend-slides
+/securitas-slides
 
 > Convert presentation.pptx to a Securitas-branded HTML slideshow
 ```

@@ -1,9 +1,9 @@
 ---
-name: frontend-slides
+name: securitas-slides
 description: Create Securitas-branded HTML presentations from scratch or by converting PowerPoint files. Use when the user wants a clean internal slide deck that stays inside the Securitas visual system.
 ---
 
-# Frontend Slides
+# Securitas Slides
 
 Create zero-dependency, Securitas-branded HTML presentations that run entirely in the browser.
 
