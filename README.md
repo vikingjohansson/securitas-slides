@@ -8,7 +8,7 @@ Credit: this project builds on the original `frontend-slides` work by [zarazhang
 
 ## What This Repo Is
 
-This repo is no longer a general slide-theme library. It is a focused internal starter for:
+This repo is a focused internal starter for:
 
 - Securitas-branded HTML slide decks
 - PPTX-to-HTML conversion
@@ -33,7 +33,18 @@ git clone git@github.com:vikingjohansson/securitas-slides.git
 cd securitas-slides
 ```
 
-### Install The Skill Files
+### Install In Codex From GitHub
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo vikingjohansson/securitas-slides \
+  --path . \
+  --name securitas-slides
+```
+
+Then restart Codex and use `/securitas-slides`.
+
+### Install In Claude Code Manually
 
 ```bash
 mkdir -p ~/.claude/skills/securitas-slides/scripts
