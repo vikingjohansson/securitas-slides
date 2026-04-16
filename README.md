@@ -30,16 +30,16 @@ All editable copy lives in the JSON content block near the top of [securitas_sta
 ## How it can look
 
 ### Slide 1
-![Slide 1 preview](./assets/readme/slide-1.png)
+![Slide 1 preview](./assets/slide-1.png)
 
 ### Slide 2
-![Slide 2 preview](./assets/readme/slide-2.png)
+![Slide 2 preview](./assets/slide-2.png)
 
 ### Slide 3
-![Slide 3 preview](./assets/readme/slide-3.png)
+![Slide 3 preview](./assets/slide-3.png)
 
 ### Slide 4
-![Slide 4 preview](./assets/readme/slide-4.png)
+![Slide 4 preview](./assets/slide-4.png)
 
 ## Installation
 
