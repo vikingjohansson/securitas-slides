@@ -41,7 +41,7 @@ All editable copy lives in the JSON content block near the top of [securitas_sta
 ### Slide 4
 ![Slide 4 preview](./assets/slide-4.png)
 
-## Installation
+## How to edit text in the html after it's generated
 
 No package installation is required.
 
