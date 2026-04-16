@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "frontend-slides",
+  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+  "owner": {
+    "name": "vikingjohansson",
+    "url": "https://github.com/vikingjohansson"
+  },
+  "plugins": [
+    {
+      "name": "frontend-slides",
+      "description": "Zero-dependency Securitas-branded HTML presentation generator with PPT conversion and PDF export support.",
+      "source": "./plugins/frontend-slides",
+      "category": "productivity",
+      "tags": ["presentations", "slides", "html", "design", "powerpoint"]
+    }
+  ]
+}

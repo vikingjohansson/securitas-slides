@@ -1,0 +1,13 @@
+{
+  "name": "frontend-slides",
+  "version": "1.0.0",
+  "description": "Zero-dependency Securitas-branded HTML presentation generator with PPT conversion and PDF export support.",
+  "author": {
+    "name": "vikingjohansson",
+    "url": "https://github.com/vikingjohansson"
+  },
+  "homepage": "https://github.com/vikingjohansson/securitas-slides",
+  "repository": "https://github.com/vikingjohansson/securitas-slides",
+  "license": "MIT",
+  "keywords": ["presentations", "slides", "html", "design", "powerpoint", "animations"]
+}
