@@ -23,6 +23,7 @@ Always:
 - Read [html-template.md](html-template.md) first because it now contains the Securitas brand defaults and structural starter
 - Read [viewport-base.css](viewport-base.css) and include its full contents in every presentation
 - Use [animation-patterns.md](animation-patterns.md) only for restrained motion
+- Treat the example in `html-template.md` as a concrete working baseline, not a loose sketch; keep its navigation, progress UI, and slide controller fully implemented rather than replacing them with stub methods or omitting them
 
 Default visual behavior:
 
